@@ -16,6 +16,7 @@ Em desenvolvimento
     Maria (Desenvolvedora)
     João (Analista de Requisitos)
     Ana (Gerente de Projeto)
+    
 ## Objetivo do Projeto
 Desenvolver um Sistema de Vendas completo para uma floricultura, ajudando a fazer as vendas, controlar estoque e clientes.
 O sistema visa atender às necessidades específicas desse tipo de negócio, oferecendo funcionalidades essenciais para uma gestão eficiente.
@@ -23,8 +24,25 @@ Ao implementar esse sistema, espera-se proporcionar uma melhor organização e c
 
 ## Funcionalidades do Sistema (Requisitos)
 
-    Cadastro de mercadorias
-    Venda de Produtos
-    Cadastro de Clientes
-    Controle de Estoque
-    Controle de Caixa
+Requisitos funcionais 
+ [RF001] < Cadastro de mercadorias. >
+	Ator: <Gerente>
+Descrição: <Permitir o cadastramento de mercadorias no sistema >
+[RF002] < Venda de Produtos>
+	Ator: <Atendentes >
+Descrição: <Para o atendente efetuar a venda do produto antes cadastrado no sistema, com valores, descontos e método de pagamento>
+[RF003] < Controle de Caixa>
+	Ator: <Gerente >
+Descrição: <Para o atendente conseguir controlar os valores em caixa >
+[RF004] < Cadastro de Clientes>
+	Ator: <Atendentes >
+Descrição: <Para o atendente efetuar o cadastro dos clientes no sistema>
+
+
+
+Requisitos não funcionais 
+[RNF001] < Ser um sistema Desktop >
+<Funcionar apenas na rede da empresa, sem ter necessidade de conexão com a WEB.>
+[RNF002] < Login de vários usuários >
+<Permitir o acesso de vários usuários, bloqueando telas para o atendente e permitindo todas as telas para o gerente.>
+
